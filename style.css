@@ -1,0 +1,29 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fundo {
+  background-color: #f0c193;
+}
+
+.title01 {
+  text-align: center;
+}
+
+.img01 {
+  text-align: center;
+}
+
+.imagemcafe {
+  height: 200px;
+  width: 500px;
+}
+
+.pesofont {
+  font-weight: 400;
+  color: #f8f3ee;
+}
+
+.sidebar {
+  background-color: #5a3723;
+}
