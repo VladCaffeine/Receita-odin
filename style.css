@@ -1,29 +1,45 @@
-* {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.fundo-total {
+  background-color: #261206;
+  color: #f2e2ce;
 }
 
-.fundo {
-  background-color: #f0c193;
-}
-
-.title01 {
+.t-cafebom {
+  background-color: #734022;
   text-align: center;
+  color: #f2e2ce;
+  padding: 20px;
+  margin: 30px;
 }
 
-.img01 {
-  text-align: center;
+.img-quercafe {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 70px;
 }
 
-.imagemcafe {
+.tutorial {
+  display: inline-block;
+  width: 350px;
+  margin-bottom: 30px;
   height: 200px;
+}
+
+.tutorial02 {
+  display: inline-block;
+  margin: 20px;
+}
+
+.conteiner-img {
+  padding-left: 280px;
+}
+
+.dicas {
+  margin-left: 20px;
+}
+
+.box-dicas {
+  display: block;
   width: 500px;
-}
-
-.pesofont {
-  font-weight: 400;
-  color: #f8f3ee;
-}
-
-.sidebar {
-  background-color: #5a3723;
+  height: 70px;
+  padding-bottom: 100px;
 }
