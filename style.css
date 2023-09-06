@@ -1,45 +1,32 @@
-.fundo-total {
+body {
   background-color: #261206;
   color: #f2e2ce;
+  margin: 0px;
 }
 
-.t-cafebom {
+.cafe-bom-daqueles {
   background-color: #734022;
   text-align: center;
   color: #f2e2ce;
-  padding: 20px;
-  margin: 30px;
+  padding: 5px;
+}
+
+.tutorial {
+  padding-left: 600px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista {
+  display: inline-block;
+  width: 600px;
+  /* padding-left: 300px; */
 }
 
 .img-quercafe {
   display: inline-block;
-  margin-left: 30px;
-  margin-right: 70px;
-}
-
-.tutorial {
-  display: inline-block;
-  width: 350px;
-  margin-bottom: 30px;
-  height: 200px;
-}
-
-.tutorial02 {
-  display: inline-block;
-  margin: 20px;
-}
-
-.conteiner-img {
-  padding-left: 280px;
-}
-
-.dicas {
-  margin-left: 20px;
-}
-
-.box-dicas {
-  display: block;
-  width: 500px;
-  height: 70px;
-  padding-bottom: 100px;
 }
