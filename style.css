@@ -1,32 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel&family=Oswald:wght@700&display=swap');
+
 body {
-  background-color: #261206;
-  color: #f2e2ce;
-  margin: 0px;
+  background-color: #262626;
+  color: white;
+  font-family: arial;
+  margin: 20px;
 }
 
 .cafe-bom-daqueles {
-  background-color: #734022;
-  text-align: center;
-  color: #f2e2ce;
-  padding: 5px;
-}
-
-.tutorial {
-  padding-left: 600px;
-}
-
-.container {
   display: flex;
+  flex-direction: column;
+  padding: 20px;
   align-items: center;
-  justify-content: center;
 }
 
-.lista {
-  display: inline-block;
-  width: 600px;
-  /* padding-left: 300px; */
+.cafe-bom {
+  display: flex;
+  font-family: 'Cinzel', serif;
+  margin: 0px;
+  color: #F2BF27;
 }
 
-.img-quercafe {
-  display: inline-block;
+.daqueles {
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  margin: 0px;
+}
+
+.linha {
+  border: 2px solid #F2BF27;
+}
+
+.tutorial-titulo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tutorial-texto {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 50px;
+  background-color: #402B1F;
+  border-radius: 20px;
+}
+
+.dicas-texto {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 40px;
+  background-color: #402B1F;
+  border-radius: 20px;
+}
+
+.dicas-titulo {
+  text-align: center;
+  margin-top: 50px;
 }
